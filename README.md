@@ -25,3 +25,8 @@ Using Chrome Developer tools to "pause on caught exceptions" shows that the unde
 ```
 "ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor".
 ``` 
+
+The problem can be fixed by downgrading to lexical 0.24.0 or by using a development build
+```
+$ shadow-cljs compile front-end
+```
