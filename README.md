@@ -9,7 +9,7 @@ To reproduce
 ```
 $ npm install
 $ shadow-cljs start
-$ shadow-cljs release front-end
+$ shadow-cljs release frontend
 ```
 
 * In the browser focus the lexical editor widget 
@@ -28,5 +28,5 @@ Using Chrome Developer tools to "pause on caught exceptions" shows that the unde
 
 The problem can be fixed by downgrading to lexical 0.24.0 or by using a development build
 ```
-$ shadow-cljs compile front-end
+$ shadow-cljs compile frontend
 ```
